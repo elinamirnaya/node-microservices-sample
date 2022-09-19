@@ -1,0 +1,42 @@
+[
+    {
+        "name": "Lamp",
+        "stocked": true
+    },
+    {
+        "name": "Bed",
+        "stocked": false
+    },
+    {
+        "name": "Dish",
+        "stocked": true
+    },
+    {
+        "name": "Cup",
+        "stocked": false
+    },
+    {
+        "name": "Glass",
+        "stocked": true
+    },
+    {
+        "name": "TV",
+        "stocked": true
+    },
+    {
+        "name": "Sofa",
+        "stocked": true
+    },
+    {
+        "name": "Picture",
+        "stocked": true
+    },
+    {
+        "name": "Shower",
+        "stocked": false
+    },
+    {
+        "name": "Armchair",
+        "stocked": true
+    }
+]

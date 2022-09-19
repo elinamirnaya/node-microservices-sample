@@ -1,10 +1,14 @@
 const express = require('express');
 const app = express();
-const port = 3000;
+const port = process.env.PORT || 3000;
 
-app.get('/', (req, res) => {
-    res.send('Success');
+const controller = require('./api/controller');
+
+app.get('/', (_req, res) => {
+    res.send('Welcome! Please navigate to /furniture to get your data.');
 });
+
+app.get('/furniture', controller.getFurniture);
 
 app.listen(port, () => {
     console.log(`Server is listening on port ${port}`);
